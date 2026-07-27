@@ -20,8 +20,8 @@ class PermissionsSeeder extends Seeder
             ['title' => 'permissions_index', 'value' => 'دسترسی ها', 'created_at' => now(), 'updated_at' => now()],
             ['title' => 'tasks_index', 'value' => 'وظیفه ها', 'created_at' => now(), 'updated_at' => now()],
             ['title' => 'projects_index', 'value' => 'پروژه ها', 'created_at' => now(), 'updated_at' => now()],
-            ['title' => 'deletes_index', 'value' => 'دکمه های حذف', 'created_at' => now(), 'updated_at' => now()],
-            ['title' => 'creates_index', 'value' => 'افزودن ها', 'created_at' => now(), 'updated_at' => now()]
+            ['title' => 'deleted_index', 'value' => 'دکمه های حذف', 'created_at' => now(), 'updated_at' => now()],
+            ['title' => 'created_index', 'value' => 'افزودن ها', 'created_at' => now(), 'updated_at' => now()]
         ]);
     }
 }
